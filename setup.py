@@ -19,6 +19,7 @@ setup(
     packages=find_namespace_packages(include=["pymatgen.analysis.*"]),
     version="0.0.6",
     install_requires=["pymatgen>=2023.7.17", "shapely>=1.8.2"],
+    setup_requires=["setuptools>=64"],
     extras_require={},
     package_data={
         "pymatgen.analysis.alloys": ["*.yaml", "*.json", "*.csv"],
